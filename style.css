@@ -1,3 +1,51 @@
 .body {
-    background-color: #ee0606;
+    display: flex;
+    background-color: #ffff;   
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+ 
+.dashboard {
+    position: fixed;
+    background-color: #3c98ed;
+    width: 290px;
+    height: 101%;
+    margin-top: -8.9px;
+    margin-left: -8px;
+}
+#change-color{
+    position: absolute;
+    top: 0.5em;
+    margin-left: 20px;
+    width: 45px;
+    height: 45px;
+}
+.icon-dashboard {
+    color: #ffff;
+    font-size: small;
+}
+#dashboard {
+    color: #ffff;
+    font-family: "Roboto", sans-serif;
+    font-size: x-large;
+    margin-left: 80px;
+    margin-top: 20px;
+
+}
+#first-cat, #second-cat{
+    color: #ffff;
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+    margin-left: 40px;
+}
+#header {
+    position: relative;
+    background-color: #b5b0b0;
+    margin-left: 290px;
+    margin-top: -495px;
+    width: 989.3px;
+    height: 160px;
+    border-left: 2px solid rgb(249, 247, 245);
+    border-bottom: 2px solid rgb(251, 248, 245);
+    padding: 0px;
+    box-shadow: 2px 4px 2px #9b9797;
 }
